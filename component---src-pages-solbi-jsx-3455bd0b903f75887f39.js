@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[259],{931:function(e,l,t){t.r(l);var r=t(294);l.default=()=>r.createElement("div",null,"solbi")}}]);
+//# sourceMappingURL=component---src-pages-solbi-jsx-3455bd0b903f75887f39.js.map

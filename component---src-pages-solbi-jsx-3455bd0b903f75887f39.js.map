@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-solbi-jsx-3455bd0b903f75887f39.js","mappings":"gKAMA,UAJc,IACL,2BAAK,Q","sources":["webpack://gatsby-starter-hello-world/./src/pages/solbi.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nconst solbi = () => {\r\n  return <div>solbi</div>;\r\n};\r\n\r\nexport default solbi;\r\n"],"names":[],"sourceRoot":""}

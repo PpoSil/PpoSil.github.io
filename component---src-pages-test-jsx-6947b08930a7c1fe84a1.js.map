@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-test-jsx-6947b08930a7c1fe84a1.js","mappings":"gKAMA,UAJa,IACJ,2BAAK,O","sources":["webpack://gatsby-starter-hello-world/./src/pages/test.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nconst test = () => {\r\n  return <div>test</div>;\r\n};\r\n\r\nexport default test;\r\n"],"names":[],"sourceRoot":""}
