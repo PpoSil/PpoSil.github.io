@@ -1,24 +1,12 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import { container, heading, navLinks, navLinkItem } from "./layout.module.css";
+import { layoutContainer, content } from "./layout.module.css"; // CSS 모듈 import
+import Header from "./header";
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
-    <div className={container}>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/solbi">SolBi</Link>
-          </li>
-        </ul>
-      </nav>
-      <div>
-        <h1>{pageTitle}</h1>
-        {children}
-      </div>
+    <div className={layoutContainer}>
+      <Header />
+      <div className={content}>{children}</div>
     </div>
   );
 };

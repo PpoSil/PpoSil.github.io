@@ -1,17 +1,8 @@
-.container {
-  /* margin: auto; */
-  max-width: 100%;
-  font-family: sans-serif;
-  background-color: antiquewhite;
-}
-.heading {
-  color: rebeccapurple;
-}
-.nav-links {
+.layoutContainer {
   display: flex;
-  list-style: none;
-  padding-left: 0;
+  color: white;
 }
-.nav-link-item {
-  padding-right: 2rem;
+
+.content {
+  width: 80%;
 }

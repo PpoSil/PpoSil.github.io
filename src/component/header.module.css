@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.container {
+  /* max-width: 100%; */
+  display: flex;
+  font-family: sans-serif;
+  background-color: white;
+  float: left;
+  height: 100vh;
+  width: 15%;
+  color: wheat;
+  margin: 0;
+}
+
+.nav-title {
+  font-size: 50px;
+  color: blueviolet;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 100px;
+}
+
+/* li 속성 */
+.nav-link-item {
+  padding-right: 2rem;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav-link-item a {
+  text-decoration: none;
+  color: black;
+}
