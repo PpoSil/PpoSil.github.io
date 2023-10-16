@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet"; // SEO 목적으로 head 태그를 관리하는 라이브러리
 import { useStaticQuery, graphql } from "gatsby";
 
 const Index = () => {
