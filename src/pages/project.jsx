@@ -12,6 +12,8 @@ const Project = ({ data }) => {
   );
 };
 
+export const Head = () => <title>Project</title>;
+
 export default Project;
 
 export const query = graphql`
