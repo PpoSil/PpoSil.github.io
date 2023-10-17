@@ -12,13 +12,11 @@ const Project = ({ data }) => {
   );
 };
 
-export const Head = () => <title>Project</title>;
-
 export default Project;
 
 export const query = graphql`
   query {
-    markdownRemark(frontmatter: { slug: { eq: "/post1" } }) {
+    markdownRemark(frontmatter: { slug: { eq: "/1" } }) {
       html
       frontmatter {
         title

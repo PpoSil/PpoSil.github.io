@@ -8,6 +8,5 @@ const solbi = () => {
     </>
   );
 };
-export const Head = () => <title>SolBi</title>;
 
 export default solbi;

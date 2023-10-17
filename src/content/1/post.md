@@ -1,8 +1,8 @@
 ---
 title: "첫번째 포스트임니다"
 date: "2023-10-15"
-slug: "/post1"
-image: "/posts1/happy.jpg"
+slug: "/1"
+image: "./happy.jpg"
 ---
 
 # 제목
@@ -15,4 +15,4 @@ image: "/posts1/happy.jpg"
 - 목록 항목 2
 
 [링크](https://example.com)
-![Alt Text](/post1/happy.jpg)
+![Alt Text](./happy.jpg)
