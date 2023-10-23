@@ -1,28 +1,40 @@
 body {
-  background-color: black;
+  position: relative;
+  overflow: hidden !important;
+
+  width: 100%;
+  height: auto;
+
+  padding-left: 4rem;
+  background: black;
+
   margin: 0;
 }
 
 .container {
-  /* max-width: 100%; */
-  display: flex;
-  font-family: sans-serif;
-  background-color: white;
-  float: left;
-  /* height: 100vh; */
-  width: 15%;
-  color: wheat;
+  position: fixed;
   margin: 0;
+  left: 0;
+  top: 0;
+  opacity: 1;
+
+  background: #bababa;
+
+  border-right: 1px solid #a2a2a2;
+  width: 4rem;
+  height: 100vh;
 }
 
 .nav-title {
-  font-size: 50px;
-  color: blueviolet;
-  font-weight: 700;
-}
+  display: flex;
+  justify-content: center;
 
-.heading {
-  color: rebeccapurple;
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: blueviolet;
 }
 
 .nav-links {
@@ -31,6 +43,16 @@ body {
   list-style: none;
   padding: 0;
   gap: 100px;
+}
+
+.nav-links li {
+  writing-mode: rl;
+  transform: rotate(-90deg);
+
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  margin-bottom: 1.78rem;
 }
 
 /* li 속성 */

@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <div className={container}>
       <nav>
-        <div className={navTitle}>Beeeee</div>
+        <div className={navTitle}>Bee</div>
         <ul className={navLinks}>
           {links.map((link) => (
             <li key={link.path} className={navLinkItem}>

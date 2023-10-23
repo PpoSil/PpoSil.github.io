@@ -2,10 +2,11 @@
 title: "OOO프로젝트"
 date: "2023-10-20"
 slug: "/1"
-image: "./happy.jpg"
+# image: "./happy.jpg"
 ---
 
-![Alt Text](./happy.jpg)
+<!-- ![Alt Text](./happy.jpg) -->
+
 [GItHub](https://example.com)
 프로젝트에 대한 소개내용을 입력해주세요.
 

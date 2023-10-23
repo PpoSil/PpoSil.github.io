@@ -9,9 +9,9 @@ export default function post1({ data }) {
     <div>
       <h1>{post.frontmatter.title}</h1>
       <p>{post.frontmatter.date}</p>
-      {post.frontmatter.image && ( // 이미지가 있는 경우만 렌더링
+      {/* {post.frontmatter.image && ( // 이미지가 있는 경우만 렌더링
         <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-      )}
+      )} */}
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   );

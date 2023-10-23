@@ -1,5 +1,5 @@
 import * as React from "react";
-import { layoutContainer, content } from "./layout.module.css"; // CSS 모듈 import
+import { layoutContainer } from "./layout.module.css"; // CSS 모듈 import
 import Header from "./header";
 import { Helmet } from "react-helmet";
 
@@ -10,7 +10,7 @@ const Layout = ({ pageTitle, children }) => {
         <title>{pageTitle}</title>
       </Helmet>
       <Header />
-      <div className={content}>{children}</div>
+      <div>{children}</div>
     </div>
   );
 };
