@@ -1,11 +1,26 @@
-@media screen and (max-width: 1024px) {
+@font-face {
+  font-family: "UhBeenamsoyoung";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeenamsoyoung.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "MyLotteBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/MyLotteBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main-container {
   width: 100%;
   /* min-height: 100%; */
   height: 100vh;
   position: relative;
   /* overflow: auto; */
+  font-family: "MyLotteBold";
 }
 
 .website-sec1 {
@@ -22,7 +37,6 @@
   text-align: center;
 
   color: #ffffff;
-  font-family: "Montserrat";
   opacity: 1;
 
   transform: translateY(-15px);
@@ -80,7 +94,6 @@
   font-size: 1.2rem;
   letter-spacing: 0.5rem;
   padding-bottom: 2rem;
-  /* font-family: "Montserrat", sans-serif; */
   border-bottom: 1px solid #ffffff;
   color: #ffffff;
 }
@@ -106,7 +119,6 @@
 /* 프로젝트 내용 */
 .project__content {
   font-size: 1.25rem;
-  font-family: "Chosunilbo_myungjo";
   line-height: 1.8;
   margin: 2.5rem 0 1.6rem 0;
   color: #ffffff;

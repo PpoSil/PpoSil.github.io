@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "MyLotteBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/MyLotteBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   position: relative;
   overflow: hidden !important;
@@ -9,6 +17,8 @@ body {
   background: black;
 
   margin: 0;
+
+  font-family: "MyLotteBold";
 }
 
 .container {
