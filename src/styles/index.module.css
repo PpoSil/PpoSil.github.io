@@ -5,6 +5,27 @@
   font-size: 10rem;
 }
 
+/* 모바일 버전 (화면 너비 600px 이하) */
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+}
+
+/* 태블릿 버전 (화면 너비 601px ~ 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+  }
+}
+
+/* PC 버전 (화면 너비 1025px 이상) */
+@media (min-width: 1025px) {
+  body {
+    margin: 0;
+  }
+}
+
 @-webkit-keyframes bounce-in-top {
   0% {
     -webkit-transform: translateY(-500px);
