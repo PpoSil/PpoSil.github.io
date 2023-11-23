@@ -1,7 +1,8 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import {
-  container,
+  nav,
+  headerContainer,
   navLinks,
   navLinkItem,
   navTitle,
@@ -24,8 +25,8 @@ const Header = () => {
   const links = data.site.siteMetadata.navLinks;
 
   return (
-    <div className={container}>
-      <nav>
+    <div className={headerContainer}>
+      <nav className={nav}>
         <div className={navTitle}>Bee</div>
         <ul className={navLinks}>
           {links.map((link) => (
