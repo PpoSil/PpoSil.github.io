@@ -6,7 +6,12 @@ import {
   navLinks,
   navLinkItem,
   navTitle,
-} from "./header.module.css";
+  hamburgerMenu,
+  menuOpen,
+  closeButton,
+} from "../styles/header.module.css";
+import { useLocation } from "@reach/router";
+import { useEffect } from "react";
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -24,11 +29,26 @@ const Header = () => {
 
   const links = data.site.siteMetadata.navLinks;
 
+  const [isOpen, setIsOpen] = React.useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
+
   return (
     <div className={headerContainer}>
       <nav className={nav}>
         <div className={navTitle}>Bee</div>
-        <ul className={navLinks}>
+        <div className={hamburgerMenu} onClick={() => setIsOpen(!isOpen)}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        {isOpen && (
+          <div className={closeButton} onClick={() => setIsOpen(false)} />
+        )}
+        <ul className={`${navLinks} ${isOpen ? menuOpen : ""}`}>
           {links.map((link) => (
             <li key={link.path} className={navLinkItem}>
               <Link to={link.path}>{link.name}</Link>

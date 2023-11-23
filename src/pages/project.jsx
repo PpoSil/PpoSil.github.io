@@ -13,7 +13,7 @@ import {
   project__title,
   button,
   project__img,
-} from "../component/project.module.css";
+} from "../styles/project.module.css";
 
 const Project = () => {
   return (

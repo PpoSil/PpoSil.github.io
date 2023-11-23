@@ -1,5 +1,5 @@
 import * as React from "react";
-import { layoutContainer } from "./layout.module.css"; // CSS 모듈 import
+import { layoutContainer } from "../styles/layout.module.css";
 import Header from "./header";
 import { Helmet } from "react-helmet";
 
