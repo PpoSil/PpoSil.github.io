@@ -7,22 +7,43 @@
 
 /* 모바일 버전 (화면 너비 600px 이하) */
 @media (max-width: 600px) {
-  body {
+  .main-container {
+    margin: 7vh;
+  }
+  .bounce-in-top {
     margin: 0;
+    font-size: 15vw;
+  }
+  .p-tag {
+    font-size: 1.5rem;
   }
 }
 
 /* 태블릿 버전 (화면 너비 601px ~ 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
-  body {
+  .main-container {
+    margin: 7vh;
+  }
+  .bounce-in-top {
     margin: 0;
+    font-size: 15vw;
+  }
+  .p-tag {
+    width: 80vw;
+    font-size: 1.5rem;
+    /* margin: 100px; */
   }
 }
 
 /* PC 버전 (화면 너비 1025px 이상) */
 @media (min-width: 1025px) {
-  body {
-    margin: 0;
+  .main-container {
+    margin: 5%;
+  }
+  .p-tag {
+    width: 80vw;
+    font-size: 1.5rem;
+    margin: 100px;
   }
 }
 
@@ -132,11 +153,6 @@
 }
 /* 끝 */
 
-.p-tag {
-  width: 80vw;
-  font-size: 1.5rem;
-  margin: 100px;
-}
 @keyframes typing {
   from {
     width: 0;
